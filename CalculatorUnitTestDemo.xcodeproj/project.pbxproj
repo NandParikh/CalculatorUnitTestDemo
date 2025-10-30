@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A6BF781F2EB35ADC001A372B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6BF78002EB35ADB001A372B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6BF78072EB35ADB001A372B;
+			remoteInfo = CalculatorUnitTestDemo;
+		};
+		A6BF78292EB35ADC001A372B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6BF78002EB35ADB001A372B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6BF78072EB35ADB001A372B;
+			remoteInfo = CalculatorUnitTestDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6BF78082EB35ADB001A372B /* CalculatorUnitTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorUnitTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BF781E2EB35ADC001A372B /* CalculatorUnitTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUnitTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BF78282EB35ADC001A372B /* CalculatorUnitTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUnitTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A6BF78302EB35ADC001A372B /* Exceptions for "CalculatorUnitTestDemo" folder in "CalculatorUnitTestDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A6BF78072EB35ADB001A372B /* CalculatorUnitTestDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A6BF780A2EB35ADB001A372B /* CalculatorUnitTestDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A6BF78302EB35ADC001A372B /* Exceptions for "CalculatorUnitTestDemo" folder in "CalculatorUnitTestDemo" target */,
+			);
+			path = CalculatorUnitTestDemo;
+			sourceTree = "<group>";
+		};
+		A6BF78212EB35ADC001A372B /* CalculatorUnitTestDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CalculatorUnitTestDemoTests;
+			sourceTree = "<group>";
+		};
+		A6BF782B2EB35ADC001A372B /* CalculatorUnitTestDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CalculatorUnitTestDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6BF78052EB35ADB001A372B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6BF781B2EB35ADC001A372B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6BF78252EB35ADC001A372B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6BF77FF2EB35ADB001A372B = {
+			isa = PBXGroup;
+			children = (
+				A6BF780A2EB35ADB001A372B /* CalculatorUnitTestDemo */,
+				A6BF78212EB35ADC001A372B /* CalculatorUnitTestDemoTests */,
+				A6BF782B2EB35ADC001A372B /* CalculatorUnitTestDemoUITests */,
+				A6BF78092EB35ADB001A372B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6BF78092EB35ADB001A372B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6BF78082EB35ADB001A372B /* CalculatorUnitTestDemo.app */,
+				A6BF781E2EB35ADC001A372B /* CalculatorUnitTestDemoTests.xctest */,
+				A6BF78282EB35ADC001A372B /* CalculatorUnitTestDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6BF78072EB35ADB001A372B /* CalculatorUnitTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6BF78312EB35ADC001A372B /* Build configuration list for PBXNativeTarget "CalculatorUnitTestDemo" */;
+			buildPhases = (
+				A6BF78042EB35ADB001A372B /* Sources */,
+				A6BF78052EB35ADB001A372B /* Frameworks */,
+				A6BF78062EB35ADB001A372B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A6BF780A2EB35ADB001A372B /* CalculatorUnitTestDemo */,
+			);
+			name = CalculatorUnitTestDemo;
+			packageProductDependencies = (
+			);
+			productName = CalculatorUnitTestDemo;
+			productReference = A6BF78082EB35ADB001A372B /* CalculatorUnitTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6BF781D2EB35ADC001A372B /* CalculatorUnitTestDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6BF78362EB35ADC001A372B /* Build configuration list for PBXNativeTarget "CalculatorUnitTestDemoTests" */;
+			buildPhases = (
+				A6BF781A2EB35ADC001A372B /* Sources */,
+				A6BF781B2EB35ADC001A372B /* Frameworks */,
+				A6BF781C2EB35ADC001A372B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6BF78202EB35ADC001A372B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A6BF78212EB35ADC001A372B /* CalculatorUnitTestDemoTests */,
+			);
+			name = CalculatorUnitTestDemoTests;
+			packageProductDependencies = (
+			);
+			productName = CalculatorUnitTestDemoTests;
+			productReference = A6BF781E2EB35ADC001A372B /* CalculatorUnitTestDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6BF78272EB35ADC001A372B /* CalculatorUnitTestDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6BF78392EB35ADC001A372B /* Build configuration list for PBXNativeTarget "CalculatorUnitTestDemoUITests" */;
+			buildPhases = (
+				A6BF78242EB35ADC001A372B /* Sources */,
+				A6BF78252EB35ADC001A372B /* Frameworks */,
+				A6BF78262EB35ADC001A372B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6BF782A2EB35ADC001A372B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A6BF782B2EB35ADC001A372B /* CalculatorUnitTestDemoUITests */,
+			);
+			name = CalculatorUnitTestDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = CalculatorUnitTestDemoUITests;
+			productReference = A6BF78282EB35ADC001A372B /* CalculatorUnitTestDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6BF78002EB35ADB001A372B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A6BF78072EB35ADB001A372B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A6BF781D2EB35ADC001A372B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A6BF78072EB35ADB001A372B;
+					};
+					A6BF78272EB35ADC001A372B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A6BF78072EB35ADB001A372B;
+					};
+				};
+			};
+			buildConfigurationList = A6BF78032EB35ADB001A372B /* Build configuration list for PBXProject "CalculatorUnitTestDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6BF77FF2EB35ADB001A372B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A6BF78092EB35ADB001A372B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6BF78072EB35ADB001A372B /* CalculatorUnitTestDemo */,
+				A6BF781D2EB35ADC001A372B /* CalculatorUnitTestDemoTests */,
+				A6BF78272EB35ADC001A372B /* CalculatorUnitTestDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6BF78062EB35ADB001A372B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6BF781C2EB35ADC001A372B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6BF78262EB35ADC001A372B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6BF78042EB35ADB001A372B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6BF781A2EB35ADC001A372B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6BF78242EB35ADC001A372B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6BF78202EB35ADC001A372B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6BF78072EB35ADB001A372B /* CalculatorUnitTestDemo */;
+			targetProxy = A6BF781F2EB35ADC001A372B /* PBXContainerItemProxy */;
+		};
+		A6BF782A2EB35ADC001A372B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6BF78072EB35ADB001A372B /* CalculatorUnitTestDemo */;
+			targetProxy = A6BF78292EB35ADC001A372B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6BF78322EB35ADC001A372B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalculatorUnitTestDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nand.app.CalculatorUnitTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6BF78332EB35ADC001A372B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalculatorUnitTestDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nand.app.CalculatorUnitTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6BF78342EB35ADC001A372B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6BF78352EB35ADC001A372B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6BF78372EB35ADC001A372B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nand.app.CalculatorUnitTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculatorUnitTestDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalculatorUnitTestDemo";
+			};
+			name = Debug;
+		};
+		A6BF78382EB35ADC001A372B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nand.app.CalculatorUnitTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculatorUnitTestDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalculatorUnitTestDemo";
+			};
+			name = Release;
+		};
+		A6BF783A2EB35ADC001A372B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nand.app.CalculatorUnitTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalculatorUnitTestDemo;
+			};
+			name = Debug;
+		};
+		A6BF783B2EB35ADC001A372B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nand.app.CalculatorUnitTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalculatorUnitTestDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6BF78032EB35ADB001A372B /* Build configuration list for PBXProject "CalculatorUnitTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BF78342EB35ADC001A372B /* Debug */,
+				A6BF78352EB35ADC001A372B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6BF78312EB35ADC001A372B /* Build configuration list for PBXNativeTarget "CalculatorUnitTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BF78322EB35ADC001A372B /* Debug */,
+				A6BF78332EB35ADC001A372B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6BF78362EB35ADC001A372B /* Build configuration list for PBXNativeTarget "CalculatorUnitTestDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BF78372EB35ADC001A372B /* Debug */,
+				A6BF78382EB35ADC001A372B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6BF78392EB35ADC001A372B /* Build configuration list for PBXNativeTarget "CalculatorUnitTestDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BF783A2EB35ADC001A372B /* Debug */,
+				A6BF783B2EB35ADC001A372B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6BF78002EB35ADB001A372B /* Project object */;
+}
