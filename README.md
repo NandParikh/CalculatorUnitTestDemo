@@ -209,3 +209,235 @@ final class CalculatorUnitTestDemoTests: XCTestCase {
     }
 }
 ```
+
+
+# 🧩 Testing Questions in Swift (XCTest)
+
+## 1. What is unit testing, and why is it important?
+Unit testing is a software testing method where individual components or functions are tested in isolation.  
+It ensures code correctness, simplifies debugging, and enhances code quality.
+
+---
+
+## 2. How do you set up a unit test target in Xcode?
+1. Open your Xcode project.  
+2. Select **File > New > Target**.  
+3. Choose **Unit Testing Bundle**.  
+4. Name the target and click **Finish**.
+
+---
+
+## 3. What is XCTest?
+**XCTest** is Apple's testing framework used for writing unit tests and UI tests for iOS, macOS, watchOS, and tvOS applications.
+
+---
+
+## 4. How do you create a test case class using XCTest?
+```swift
+import XCTest
+
+class MyTests: XCTestCase {
+    func testExample() {
+        let result = 2 + 2
+        XCTAssertEqual(result, 4, "The result should be 4")
+    }
+}
+```
+
+---
+
+## 5. Explain the lifecycle of a test method in XCTest
+- `setUp()` : Called before each test method.  
+- `tearDown()` : Called after each test method.  
+- `setUpWithError()` & `tearDownWithError()` : Handle throwing errors if needed.
+
+---
+
+## 6. What are assertions in unit testing? Provide examples.
+```swift
+XCTAssert(true) // General assertion
+XCTAssertEqual(2 + 2, 4) // Equality check
+XCTAssertNotEqual(2 + 2, 5) // Inequality check
+XCTAssertNil(nil) // Nil check
+XCTAssertNotNil("Hello") // Non-nil check
+```
+
+---
+
+## 7. How do you write asynchronous test cases using XCTest?
+```swift
+func testAsyncCall() {
+    let expectation = self.expectation(description: "Async Call")
+    
+    fetchData { data in
+        XCTAssertNotNil(data)
+        expectation.fulfill()
+    }
+    
+    waitForExpectations(timeout: 5, handler: nil)
+}
+```
+**Explanation:** XCTest expectations let your test pause until asynchronous code finishes, ensuring you can assert results after async completion.
+
+---
+
+## 8. What are test doubles? Explain mocks, stubs, and fakes.
+
+**Test doubles** are objects that stand in for real objects in tests.  
+They simulate or control behavior in a predictable way.
+
+### Mocks — Verify interactions
+```swift
+class MockPaymentService: PaymentService {
+    var sendReceiptCalled = false
+    override func sendReceipt() {
+        sendReceiptCalled = true
+    }
+}
+
+// In test
+let mockService = MockPaymentService()
+checkout.processPayment(service: mockService)
+XCTAssertTrue(mockService.sendReceiptCalled)
+```
+
+### Stubs — Provide predefined responses
+```swift
+class WeatherServiceStub: WeatherService {
+    override func fetchWeather(for city: String) -> Weather {
+        return Weather(temperature: 25, condition: "Sunny")
+    }
+}
+```
+
+### Fakes — Real logic but simpler (in-memory)
+```swift
+class FakeDatabase: Database {
+    private var storage = [String: String]()
+    
+    override func save(key: String, value: String) {
+        storage[key] = value
+    }
+    
+    override func get(key: String) -> String? {
+        return storage[key]
+    }
+}
+```
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/383d0651-e63f-4fea-979b-fa97308a5eca" />
+
+---
+
+## 9. What is TDD, and what are its benefits?
+**TDD (Test-Driven Development)** involves writing tests before writing the actual implementation code.  
+
+**Cycle:** Red → Green → Refactor
+
+### Example:
+```swift
+class CalculatorTests: XCTestCase {
+    func testAddition() {
+        let result = Calculator.add(2, 3)
+        XCTAssertEqual(result, 5)
+    }
+}
+
+struct Calculator {
+    static func add(_ a: Int, _ b: Int) -> Int {
+        return a + b
+    }
+}
+```
+
+**Benefits:**
+- Reduces bugs  
+- Improves design  
+- Provides better test coverage  
+
+---
+
+## 10. What is code coverage, and how do you enable it in Xcode?
+Code coverage measures how much of the source code is tested by unit tests.
+
+1. Open Xcode.  
+2. Go to **Product > Scheme > Edit Scheme...**  
+3. Select **Test** and check **Gather Coverage for Targets**.
+
+---
+
+## 11. How do you interpret code coverage reports?
+- **Green** → Fully tested code  
+- **Red** → Untested code  
+
+---
+
+## 12. What are best practices for writing unit tests?
+✅ Write independent tests  
+✅ Use meaningful method names  
+✅ Test one thing per method  
+✅ Use test doubles when needed  
+✅ Keep tests readable and maintainable  
+
+---
+
+## 13. How can you prevent unreliable tests?
+- Avoid external dependencies  
+- Use mock services  
+- Ensure consistent test data  
+
+---
+
+## 14. How do you test Core Data models?
+Test Core Data models by using an **in-memory persistent container** and validating CRUD operations.
+![IMG_8633](https://github.com/user-attachments/assets/d5cf7b3a-c554-4966-b175-16a49f8e1d9d)
+
+---
+
+## 15. How do you test ViewModels in MVVM?
+```swift
+class ViewModelTests: XCTestCase {
+    func testViewModelFetch() {
+        let viewModel = MyViewModel(service: MockService())
+        viewModel.fetchData()
+        XCTAssertEqual(viewModel.data.count, 3)
+    }
+}
+```
+
+
+## 16. UI Testing with XCUITest
+
+UI tests simulate user actions — tapping buttons, entering text, etc.  
+They verify that the app’s interface behaves correctly.
+
+```swift
+class UITests: XCTestCase {
+    func testLoginFlow() {
+        let app = XCUIApplication()
+        app.launch()       
+
+        app.textFields["username"].tap()
+        app.textFields["username"].typeText("testuser")
+        app.buttons["Login"].tap()
+        XCTAssertTrue(app.staticTexts["Welcome"].exists)
+    }
+}
+```
+
+### 🧠 Explanation:
+- `XCUIApplication()` launches the app.  
+- UI elements are accessed by their accessibility identifiers (e.g., `"username"`).  
+- `tap()` and `typeText()` simulate user actions.  
+- `XCTAssertTrue` checks that a specific UI element exists — confirming successful login.
+
+---
+
+## Testing Strategy
+
+A good testing approach includes all test layers:
+- ✅ **Unit Tests** — for `ViewModels`, logic, and data handling.  
+- ✅ **UI Tests** — for core user flows such as login, registration, or checkout.  
+- ✅ **Integration Tests** — to verify end-to-end behavior using mocked API responses.
+
+Following this layered approach ensures your SwiftUI app remains **stable**, **reliable**, and **easy to maintain**.
+
